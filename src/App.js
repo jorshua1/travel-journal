@@ -1,9 +1,14 @@
-import logo from './logo.svg';
+import React from "react";
+import Posts from "../src/Components/Posts";
+import Navbar from "../src/Components/Navbar";
 
 function App() {
   return (
-<div className='bg-slate-500 text-white'>hi</div>
-)
-};
+    <div className="inter">
+      <Navbar />
+      <Posts />
+    </div>
+  );
+}
 
-export default App
+export default App;
